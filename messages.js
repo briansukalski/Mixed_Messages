@@ -1,14 +1,15 @@
+//Greetings
 const greetings = [];
 greetings.push("You've been a good friend to me. That means something");
 greetings.push("You're someone who can get things done. I like that.");
 greetings.push("Good to see you again, friend.");
 greetings.push("Good to see you. Finally someone useful is around.");
-greetings.push("Friends like you are hard to find and very valuable to me");
+greetings.push("Friends like you are hard to find and very valuable to me.");
 greetings.push("Divines bless you! May the ground you walk quake as you pass.");
 greetings.push("Azura's wisdom to you, friend.");
 greetings.push("My favorite drinking buddy! Let's go get some mead.");
 greetings.push("Divines smile on you, friend.");
-greetings.push("These sands are col, but Khajiit feels warmness from your presence.");
+greetings.push("These sands are cold, but Khajiit feels warmness from your presence.");
 greetings.push("You're not as dumb as you look.");
 greetings.push("Good to see Skyrim still has such fine people. You give an old man hope.");
 greetings.push("You and me, we're the only people around who aren't complete fools.");
@@ -17,15 +18,13 @@ greetings.push("Oh, it's you. I was wondering why I was smelling something unple
 greetings.push("I should bash your face in after all you've done.");
 greetings.push("You. What do you want?");
 greetings.push("I hope the wilds claim you, one of these days.");
-greetings.push("Now why would I want to talk to you?");
-greetings.push("What do you want, milk drinker?");
 greetings.push("The gods know what you've done.");
 greetings.push("You're nothing but trouble.");
 greetings.push("Honored to see you again, my Thane.");
 greetings.push("Guard might get nervous, a man approaches with his weapon drawn.");
 greetings.push("Hail, Companion.");
 
-
+//General comments
 const remarks = [];
 remarks.push("You're not supposed to be in here.");
 remarks.push("Hey, watch it!");
@@ -62,7 +61,7 @@ remarks.push("These vampires are becoming a real menace.");
 remarks.push("Some may call this junk. Me, I call them treasures.");
 remarks.push("Hmph. I had you figured for a mage. I think you'll appreciate this...");
 
-
+//Questions
 const questions = [];
 questions.push("What is it? Dragons?");
 questions.push("Staying out of trouble, kinsman?");
@@ -72,9 +71,13 @@ questions.push("You couldn't possibly be the Dragonborn of legend. Could you?");
 questions.push("Don't go setting the place on fire, okay?");
 questions.push("A healing spell? Are you a priest?");
 questions.push("By the gods, is that the voice?");
-questions.push("Ah ,so you're an alchemist, then?");
+questions.push("Ah, so you're an alchemist, then?");
 questions.push("Looking to protect yourself, or deal some damage?");
 questions.push("What do you need, my Thane?");
+questions.push("Now why would I want to talk to you?");
+questions.push("What do you want, milk drinker?");
 
+//Puts the three arrays together into one array to be imported in the random_chat.js file
 const allDialogue = [greetings, remarks, questions];
 
+module.exports = {allDialogue};
