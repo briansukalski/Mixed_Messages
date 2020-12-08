@@ -75,3 +75,6 @@ questions.push("By the gods, is that the voice?");
 questions.push("Ah ,so you're an alchemist, then?");
 questions.push("Looking to protect yourself, or deal some damage?");
 questions.push("What do you need, my Thane?");
+
+const allDialogue = [greetings, remarks, questions];
+
